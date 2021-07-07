@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/CSS/style.css">
+    <title>Cv Numérique</title>
+</head>
+<body>
+    <!-- Pour la card du debug du CV-->
+    <div class="card-container">
+        <div class="card-rounded"></div>
+        <div class="card-separateur"></div>
+        <div class="card-contenu">
+            <h1>CV Numérique</h1>
+            <p>DELCLOQUE Arthur</p>
+            <p>7 passage anatole france 60200 Compiègne</p>
+            <p>06.17.28.13.15</p>
+            <p>a.delcloque@yahoo.fr</p>
+            <p>21 ans</p>
+        </div>
+        <!-- Pour le dl du cv numerique -->
+        <div class="dl-container">
+            <h2>Télécharger le cv papier:</h2>
+            <a href="asset/pdf/CV Arthur delcloque.pdf"><img src="asset/Images/download.png" alt="logo download"></a>
+        </div>
+    </div>   
+    <!-- Début de construction du squelette du cv -->
+    <div class="container">
+        <div class="container-onglets">
+            <div id="formation" class="onglets active" data-anim="1">Formations</div>
+            <div id="experience" class="onglets" data-anim="2">Expériences pro</div>
+            <div id="competence" class="onglets" data-anim="3">Compétences</div>
+            <div id="interet" class="onglets" data-anim="4">Intérêt</div>
+        </div>
+        <!-- tout mes contenue dans mes onglets -->
+        <div class="contenue-container">
+            <div class="contenue activeContenue" data-anim="1">
+                <h2>Juin 2021</h2>
+                <hr>
+                <p>J'ai fait une POEC front-end Préparation (opérationnelle à l'emploi collective (400h)) qui ma permis a apprendre les bases de plusieurs language informatique</p>
+                <h2>Mars 2021</h2>
+                <hr>
+                <p>J'ai fait mon Certificat de Sauveteur Secouriste du Travail (SST) a l'INRS de Compiègne.</p>
+                <h2>2015 à 2017</h2>
+                <hr>
+                <p>J'ai fait un bac pro Électrotechnique Energie Équipements Communiquant (EEEC) que j'ai arrêter en première.</p>
+                <h2>2014 à 2015</h2>
+                <hr>
+                <p>J'ai obtenue mon brevet des collège au Lycée Mireille Grenet a Compiègne.</p>
+            </div>
+            <div class="contenue" data-anim="2">
+                <h2>Juil.2016</h2>
+                <hr>
+                <p>J'ai fait accastilleur a Guerdin et Fils c'était une Expériences plutôt enrichissante étant donner que c'était mon premier travail.</p>
+                <h2>Mai à juin 2015</h2>
+                <hr>
+                <p>J'ai fait un stage dans un bureau d'étude en electricité ce stage était vraiment intéressante et ma rapprocher des métier du numérique étant donner qu'on faisait beaucoup de chose avec l'ordinateur</p>
+            </div>
+            <div class="contenue" data-anim="3">
+                <ol>
+                    <li>
+                        <label for="file">HTML5 / CSS</label>
+                        <progress id="file" max="100" value="90"> 90% </progress>
+                    </li>
+                    <li>
+                        <label for="file">JAVASCRIPT</label>
+                        <progress id="file" max="100" value="70"> 70% </progress>
+                    </li>
+                    <li>
+                        <label for="file">PHP</label>
+                        <progress id="file" max="100" value="50"> 50% </progress>
+                    </li>
+                    <li>
+                        <label for="file">PYTHON</label>
+                        <progress id="file" max="100" value="80"> 80% </progress>
+                    </li>
+                    <li>
+                        <label for="file">Langue: Allemand</label>
+                        <progress id="file" max="100" value="100"> 100% </progress>
+                    </li>
+                    <li>
+                        <label for="file">Langue: Anglais</label>
+                        <progress id="file" max="100" value="85"> 85% </progress>
+                    </li>
+                </ol>
+            </div>
+            <div class="contenue interet" data-anim="4">
+                <ol>
+                    <li>Jeux-vidéo</li>
+                    <li>Langues étrangères</li>
+                    <li>Informatique</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Pour les reseaux sociaux -->
+    <footer class="footer">
+        <div class="contenant">
+            <a href="https://www.linkedin.com/in/arthur-delcloque-84239a1a0/"><img src="asset/Images/linkedin.png" alt="logo de linkedin"></a>
+        </div>
+        <div class="contenantDeGithub">
+            <a href="https://github.com/valod360"><img src="asset/Images/github.png" alt="logo de github"></a>
+        </div>
+    </footer>
+    <script src="asset/JS/main.js"></script>
+</body>
+</html>

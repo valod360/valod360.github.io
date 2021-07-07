@@ -1,0 +1,325 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f1f1f1;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../Images/fond\ rose.jpg);
+}
+/* pour la card */
+.card-container {
+    padding: 5rem;
+    border: 1px solid black;
+    margin: 1% 50% 0 5%;
+    display: flex;
+    background: rgba(191, 124, 181, 0.1);
+}
+.card-rounded{
+    border: 1px solid black ;
+    padding: 15%;
+    border-radius: 50%;
+    background-image: url(../Images/personnageDeMoi.png);
+    background-size: cover;
+    background-position: center center;
+}
+.card-separateur{
+    margin-left: 1rem;
+    border-right: 1px solid black;
+}
+.card-contenu h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.card-contenu p{
+    margin-top: 0.5rem;
+}
+.card-contenu{
+    margin-left: 1rem;
+    font-style: normal;
+}
+/* pour le dl du cv */
+.dl-container{
+    border-left: 1px solid black;
+    padding-right: 150%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.dl-container > a > img{
+    width: 100%;
+}
+/* pour le contenue principale de la page */
+.container{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+    height: 500px;
+    background: #f1f1f1;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container-onglets{
+    background: #f1f1f1;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border-bottom: 1px solid #333;
+}
+.onglets{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.onglets:not(:nth-child(4)){
+    border-right: 1px solid #333;
+}
+/* pour le contenue */
+.contenue-container{
+    overflow-y: scroll;
+    height: 70%;
+    width: 100%;
+}
+.contenue{
+    height: 70%;
+    width: 100%;
+    display: none;
+    overflow-y: scroll;
+}
+.contenue li{
+    padding-bottom: 4%;
+}
+.contenue h2{
+    padding: 20px;
+}
+.contenue hr{
+    width: 20%;
+    height: 2px;
+    margin-left: 20px;
+    background: #000;
+    border: none;
+}
+.contenue p{
+    padding: 20px;
+}
+.interet ol{
+    margin-left: 5%;
+    margin-top: 5rem;
+}
+.interet li{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+/* footer */
+.footer{
+    margin-top: 23%;
+    display: flex;
+}
+.contenantDeGithub{
+    margin-left: 89%;
+}
+/* animation */
+.active{
+    background: midnightblue;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+.activeContenue {
+    display: unset;
+}
+/*pour les barre de chargement*/
+label {
+    margin-left: 10%;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+progress{
+    display: flex;
+    margin-left: 10%;
+}
+/* menu burger */
+.ham{
+    display: none;
+}
+.menu{
+    display: none;
+}
+/* responsive */
+@media (max-width: 1600px){
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        width: 850px;
+        height: 500px;
+        background: #f1f1f1;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    /* footer */
+    .footer{
+        margin-top: 16%;
+        display: flex;
+    }
+    .contenantDeGithub{
+        margin-left: 87%;
+    }
+    body{
+        background: #f1f1f1;
+        height: 100vh;
+        overflow: scroll;
+        background: url(../Images/fond\ rose.jpg);
+    }
+}
+@media (max-width: 1490px){
+    body{
+        background: #f1f1f1;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .container{
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 850px;
+        height: 500px;
+        background: #f1f1f1;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .card-container {
+        padding: 5rem;
+        border: 1px solid black;
+        margin: 1% 10% 0 5%;
+        display: flex;
+        background: rgba(48, 47, 44, 0.2);
+    }
+    /* footer */
+    .footer{
+        margin-top: 30%;
+        display: flex;
+    }
+    body{
+        background: #f1f1f1;
+        height: 100vh;
+        overflow: scroll;
+        background: url(../Images/fond\ rose.jpg);
+    }
+}
+/* 852 */
+@media (max-width: 852px){
+    /* pour la taille du contenaire */
+    .container{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 500px;
+        background: #f1f1f1;
+        border-radius: 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    /* footer */
+    .footer{
+        margin-top: 50%;
+        display: flex;
+    }
+    .contenantDeGithub{
+        margin-left: 76%;
+    }
+    body{
+        background: #f1f1f1;
+        height: 100vh;
+        overflow: scroll;
+        background: url(../Images/fond\ rose.jpg);
+    }
+}
+/* 645 */
+@media (max-width: 645px){
+    .card-rounded{
+        padding: 15%;
+        border-radius: 50%;
+        background-image: url(../Images/personnageDeMoi.png);
+        background-size: cover;
+        background-position: center center;
+    }
+    .dl-container{
+        border-left: 1px solid black;
+        padding-right: 150%;
+        margin-left: 1%;
+        padding-left: 1%;
+    }
+    .dl-container > a > img{
+        width: 50%;
+    }
+    .card-container {
+        padding: 5rem;
+        border: 1px solid black;
+        margin: 1% 1% 0 1%;
+        display: flex;
+        background: rgba(48, 47, 44, 0.2);
+    }
+    /* footer */
+    .footer{
+        margin-top: 82%;
+        display: flex;
+    }
+    .contenantDeGithub{
+        margin-left: 69%;
+    }
+    body{
+        background: #f1f1f1;
+        height: 100vh;
+        overflow: scroll;
+        background: url(../Images/fond\ rose.jpg);
+    }
+}
+/* 500 */
+@media (max-width: 500px){
+    .card-rounded{
+        padding: 15%;
+        border-radius: 50%;
+        background-image: url(../Images/personnageDeMoi.png);
+        background-size: cover;
+        background-position: center center;
+    }
+    .dl-container{
+        border-left: 1px solid black;
+        padding-right: 150%;
+        margin-left: 1%;
+        padding-left: 1%;
+    }
+    .dl-container > a > img{
+        width: 50%;
+    }
+    .card-container {
+        padding: 5rem;
+        margin: 1% 1% 0 1%;
+        display: flex;
+        background: rgba(48, 47, 44, 0.2);
+    }
+    /* footer */
+    .footer{
+        margin-top: 110%;
+        display: flex;
+    }
+    .contenantDeGithub{
+        margin-left: 59%;
+    }
+    body{
+        overflow: scroll;
+        background: #f1f1f1;
+        height: 100vh;
+        background: url(../Images/fond\ rose.jpg);
+    }
+}
