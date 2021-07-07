@@ -111,12 +111,17 @@ body{
 }
 .interet ol{
     margin-left: 5%;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .interet li{
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     font-size: 2rem;
 }
+.interet h2{
+    font-size: 2rem;
+}
+
+
 /* footer */
 .footer{
     margin-top: 23%;
@@ -175,7 +180,7 @@ progress{
     body{
         background: #f1f1f1;
         height: 100vh;
-        overflow: scroll;
+        overflow-y: scroll;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -211,7 +216,7 @@ progress{
     body{
         background: #f1f1f1;
         height: 100vh;
-        overflow: scroll;
+        overflow-y: scroll;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -240,7 +245,7 @@ progress{
     body{
         background: #f1f1f1;
         height: 100vh;
-        overflow: scroll;
+        overflow-y: scroll;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -280,7 +285,7 @@ progress{
     body{
         background: #f1f1f1;
         height: 100vh;
-        overflow: scroll;
+        overflow-y: scroll;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -317,7 +322,7 @@ progress{
         margin-left: 59%;
     }
     body{
-        overflow: scroll;
+        overflow-y: scroll;
         background: #f1f1f1;
         height: 100vh;
         background: url(../Images/fond\ rose.jpg);
