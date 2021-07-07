@@ -84,6 +84,7 @@ body{
 /* pour le contenue */
 .contenue-container{
     overflow-y: scroll;
+    overflow-x: none;
     height: 70%;
     width: 100%;
 }
@@ -181,6 +182,7 @@ progress{
         background: #f1f1f1;
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: none;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -189,6 +191,7 @@ progress{
         background: #f1f1f1;
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: none;
     }
     .container{
         position: absolute;
@@ -217,6 +220,7 @@ progress{
         background: #f1f1f1;
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: none;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -246,6 +250,7 @@ progress{
         background: #f1f1f1;
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: none;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -286,6 +291,7 @@ progress{
         background: #f1f1f1;
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: none;
         background: url(../Images/fond\ rose.jpg);
     }
 }
@@ -323,6 +329,7 @@ progress{
     }
     body{
         overflow-y: scroll;
+        overflow-x: none;
         background: #f1f1f1;
         height: 100vh;
         background: url(../Images/fond\ rose.jpg);
